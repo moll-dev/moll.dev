@@ -1,0 +1,30 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "moll.dev"
+
+
+[params]
+  homeTagline = "You just made a Hugo blog from scratch."
+
+
+[menu]
+  [[menu.main]]
+    identifier = "About"
+    name = "About"
+    title = "blog section"
+    url = "/about/"
+    pre = "blue-0 hl-blue-1"
+
+  [[menu.main]]
+    identifier = "Journal"
+    name = "Journal"
+    title = "blog section"
+    url = "/journal/"
+    pre = "yellow-0 hl-yellow-1"
+
+  [[menu.main]]
+    identifier = "Projects"
+    name = "Projects"
+    title = "blog section"
+    url = "/projects/"
+    pre = "red-0 hl-red-1"

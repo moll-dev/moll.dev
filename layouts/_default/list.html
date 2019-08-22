@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<div class="tc">
+  <h2 class="f3 ns2 neue-haas-bold tracked-l pt3">
+    {{ .Title }}
+  </h2>
+  {{ range .Pages.ByPublishDate.Reverse }}
+  <ul class="db list pa0 iosevka ">
+    <li class="bd pt0">
+      <div class="dib">
+        <a class="w-auto dib link underline-hover blue f4 fw2 pa1" href="{{ .RelPermalink}}" >
+          {{ .Name }}</a>
+        <h4 class="dib f5 fw1">-- {{ .Date.Month }} {{ .Date.Year }}</h4>
+      </div>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+
+{{ end }}

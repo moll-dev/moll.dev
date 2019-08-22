@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>{{ .Title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/testing.css">
+</head>
+
+<body class="fancy-background">
+  <!-- Main Container -->
+  <div class="mw8 center pa3 ma3">
+    <!-- Header -->
+    {{ partial "nav.html" . }}
+
+    <!--db dt-l mw6 center pv4 iosevka-->
+    <div class="ma0 na1-ns bg-white paper-outline">
+        {{ block "main" . }}{{ end }}
+    </div>
+
+    {{ partial "footer.html" }}
+</body>
+
+</html>

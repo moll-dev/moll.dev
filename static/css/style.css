@@ -1,0 +1,144 @@
+@import url("/css/iosevka-ss08-2.1.0/webfont.css");
+@import url("/css/neue-haas-grotesk/style.css");
+@import url("/css/color.css");
+@import url("tachyons.min.css");
+
+.iosevka {
+    font-family: "Iosevka";
+}
+
+
+.neue-haas {
+    font-family: "Neue Haas Grotesk Text Pro Roman";
+}
+
+
+.neue-haas-bold {
+    font-family: "Neue Haas Grotesk Text Pro Bold";
+}
+
+.shadows-maybe {
+    box-shadow: 8px 8px 0px 4px #FFEBB5, -5px -5px 0px 2px #9BC2D6;
+}
+
+.highlight {
+    border: 2 2 2 2 black;
+    padding: 0.3rem 0.6rem 0.3rem 0.6rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    line-height: 1.4em;
+    font-weight: 100;
+    box-shadow: 10px 10px 0px 0px #FFC5B5;
+}
+
+
+.code {
+    font-family: "Iosevka";
+}
+
+.paper-outline {
+    position: relative;
+    border: 3px solid #669AB380;
+    z-index: 1;
+    top: -3px;
+    left: -3px;
+}
+
+.fancy-background {
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffebb5' fill-opacity='0.5'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.paper-outline::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -12px;
+    right: -12px;
+    border: 3px solid #D25A3A80;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -2;
+}
+
+.hl-nav,
+a[rev='footnote'] {
+ position:relative;
+ z-index:1;
+}
+
+.hl-nav::after {
+ bottom:-1px;
+ content:' ';
+ display:block;
+ height: 70%;
+ opacity:0.5;
+ left: 7px;
+ bottom: -4px;
+ position:absolute;
+ transition:all 0.15s ease-in-out;
+ transition-timing-function: cubic-bezier(.54,.22,.49,1.35);
+ width:calc(100%);
+ z-index:-1
+}
+
+
+
+.hl-nav-selected::after,
+a[rev='footnote']:hover::after {
+    left:-7.5px;
+    opacity:0.7;
+    height: 120%;
+    width:calc(100% + 15px)
+}
+
+.hl-blue-1::after {
+    background-color: #9BC2D6;
+}
+
+.hl-yellow-1::after {
+    background-color: #FFEBB5;
+}
+
+.hl-red-1::after {
+    background-color: #FFC5B5;
+}
+
+.hl-nav:hover::after,
+a[rev='footnote']:hover::after {
+ left:-7.5px;
+ opacity:1;
+ width:calc(100% + 15px)
+}
+
+
+.hl::after {
+    bottom:-1px;
+    content:' ';
+    display:block;
+    height: 50%;
+    opacity:0.5;
+    left: 5px;
+    position:absolute;
+    transition:all 0.15s ease-in-out;
+    transition-timing-function: cubic-bezier(.54,.22,.49,1.35);
+    width:calc(100%);
+    z-index:-1
+   }
+   
+   
+   
+   .hl-selected::after,
+   a[rev='footnote']:hover::after {
+       left:-7.5px;
+       opacity:0.7;
+       height: 120%;
+       width:calc(100%)
+   }
+
+.hl:hover::after,
+a[rev='footnote']:hover::after {
+ left:-7.5px;
+ opacity:1;
+ width:calc(100%)
+}
