@@ -18,4 +18,4 @@ steps:
       command: 'buildAndPush'
       Dockerfile: 'docker/pipeline/Dockerfile'
       buildContext: 'docker/pipeline'
-      tags: 'moll.dev/pipeline$(Build.BuildId)'
+      tags: 'pipeline'
