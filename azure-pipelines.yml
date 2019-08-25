@@ -12,19 +12,9 @@ pool:
 
 steps:
   - task: Docker@2
-    displayName: Login to ACR
     inputs:
-      command: login
-      containerRegistry: molldevhub
-  - task: Docker@2
-    displayName: logout???
-    inputs:
-      command: logout
-  - task: Docker@2
-    inputs:
-      containerRegistry: 'molldevhub'
       repository: 'moll.dev'
-      command: 'buildAndPush'
+      command: 'build'
       Dockerfile: 'docker/pipeline/Dockerfile'
       buildContext: 'docker/pipeline'
       tags: 'pipeline'
