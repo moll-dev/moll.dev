@@ -17,22 +17,13 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- task: Docker@2
-  inputs:
-    containerRegistry: 'dockerhub'
-    command: 'login'
-    
-- task: Docker@2
-  inputs:
-    containerRegistry: 'molldevhub'
-    repository: 'moll.dev'
-    command: 'build'
-    Dockerfile: '**/docker/$(imageName)/Dockerfile'
 
 - task: Docker@2
   inputs:
-    containerRegistry: 'molldevhub'
-    command: 'login'
+    containerRegistry: 'dockerhub'
+    repository: 'moll.dev'
+    command: 'build'
+    Dockerfile: '**/docker/$(imageName)/Dockerfile'
 
 - task: Docker@2
   inputs:
