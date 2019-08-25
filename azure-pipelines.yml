@@ -18,3 +18,8 @@ steps:
       Dockerfile: 'docker/pipeline/Dockerfile'
       buildContext: 'docker/pipeline'
       tags: 'pipeline'
+  - task: Docker@2
+    inputs:
+      containerRegistry: 'molldevhub'
+      command: 'push'
+      tags: 'pipeline'
