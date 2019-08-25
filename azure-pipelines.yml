@@ -4,6 +4,12 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
+variables:
+  dockerId: molldevhub  # Replace with your Docker ID for Docker Hub or the admin user name for the Azure Container Registry
+  dockerRepo: moll.dev
+  imageName: pipeline  # Replace with the name of the image you want to publish
+
+
 trigger:
 - master
 
@@ -13,14 +19,13 @@ pool:
 steps:
   - task: Docker@2
     inputs:
-      repository: 'moll.dev'
       command: 'build'
-      Dockerfile: 'docker/pipeline/Dockerfile'
+      Dockerfile: 'docker/$(imageName)/Dockerfile'
       buildContext: 'docker/pipeline'
-      tags: 'pipeline'
+      tags: $(dockerId).azurecr.io/$(dockerRepo)/$(imageName)
   - task: Docker@2
     inputs:
-      containerRegistry: 'molldevhub'
+      containerRegistry: $(dockerId)
       repository: moll.dev/pipeline
       command: 'push'
-      tags: 'latest'
+      tags: $(dockerId).azurecr.io/$(dockerRepo)/$(imageName)
