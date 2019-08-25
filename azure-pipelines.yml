@@ -29,4 +29,10 @@ steps:
   inputs:
     containerRegistry: 'molldevhub'
     repository: 'moll.dev'
+    command: 'login'
+    
+- task: Docker@2
+  inputs:
+    containerRegistry: 'molldevhub'
+    repository: 'moll.dev'
     command: 'push'
