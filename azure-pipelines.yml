@@ -28,7 +28,13 @@ steps:
 
 - script: docker tag moll.dev:$(Build.BuildId) "molldevhub.azurecr.io/$(dockerRepo)/$(imageName)"
   displayName: Tag Image
+
+- script: docker tag moll.dev:$(Build.BuildId) "molldevhub"
+  displayName: Tag Image
   
+
+- script: docker tag moll.dev:$(Build.BuildId) "blahblahblah.azurecr.io/$(dockerRepo)/$(imageName)"
+  displayName: Tag Image
 
 - task: Docker@2
   displayName: Login molldevhub
