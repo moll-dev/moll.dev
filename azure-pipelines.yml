@@ -18,10 +18,11 @@ pool:
 
 steps:
 
-- script: |
-    docker build -t $(dockerRepo)/$(imageName) docker/$(imageName)/Dockerfile
-    docker tag $(dockerRepo)/$(imageName) $(dockerId).azurecr.io/$(dockerRepo)/$(imageName)
-    displayName: Building and Tagging Image
+- script: docker build -t $(dockerRepo)/$(imageName) docker/$(imageName)/Dockerfile
+  displayName: Building Image
+
+- script: docker tag $(dockerRepo)/$(imageName) $(dockerId).azurecr.io/$(dockerRepo)/$(imageName)
+  displayName: Tagging Image
 
 - task: Docker@2
   displayName: Pushing Image
