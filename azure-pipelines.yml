@@ -30,5 +30,5 @@ steps:
     containerRegistry: 'molldevhub'
     command: 'login'
 
-- script: docker push $(dockerId).azurecr.io/$(dockerRepo)/$(imageName)
+- script: docker push molldevhub.azurecr.io/$(dockerRepo)/$(imageName)
   displayName: Pushing Image
