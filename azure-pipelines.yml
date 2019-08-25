@@ -17,10 +17,9 @@ steps:
       command: login
       containerRegistry: molldevhub
   - task: Docker@2
-    displayName: Login to Docker Hub
+    displayName: logout???
     inputs:
-      command: login
-      containerRegistry: dockerhub
+      command: logout
   - task: Docker@2
     inputs:
       containerRegistry: 'molldevhub'
