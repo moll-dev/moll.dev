@@ -26,7 +26,7 @@ steps:
     command: 'build'
     Dockerfile: '**/docker/$(imageName)/Dockerfile'
 
-- script: docker tag moll.dev:$(Build.BuildId) $(dockerRegistry).azurecr.io/$(dockerRepo)/$(imageName)
+- script: docker tag moll.dev:$(Build.BuildId) "molldevhub.azurecr.io/$(dockerRepo)/$(imageName)"
   displayName: Tag Image
   
 
@@ -36,5 +36,5 @@ steps:
     containerRegistry: 'molldevhub'
     command: 'login'
 
-- script: docker push $(dockerRegistry).azurecr.io/$(dockerRepo)/$(imageName) 
+- script: docker push "molldevhub.azurecr.io/moll.dev/pipeline" 
   displayName: Push Image
