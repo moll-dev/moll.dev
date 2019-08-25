@@ -5,7 +5,6 @@
 # https://aka.ms/yaml
 
 variables:
-  dockerRegistry: molldevhub  # Replace with your Docker ID for Docker Hub or the admin user name for the Azure Container Registry
   dockerRepo: moll.dev
   imageName: pipeline  # Replace with the name of the image you want to publish
 
