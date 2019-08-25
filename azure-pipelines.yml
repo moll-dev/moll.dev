@@ -28,6 +28,7 @@ steps:
   displayName: Pushing Image
   inputs:
     containerRegistry: $(dockerId)
+    repository: $(dockerRepo)
     command: 'push'
     tags: $(dockerId).azurecr.io/$(dockerRepo)/$(imageName)
 
