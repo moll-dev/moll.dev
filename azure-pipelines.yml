@@ -25,10 +25,10 @@ steps:
   displayName: Tagging Image
 
 - task: Docker@2
-  displayName: Pushing Image
+  displayName: Login to MollDevHub
   inputs:
-    containerRegistry: $(dockerId)
-    repository: $(dockerRepo)
-    command: 'push'
-    tags: $(dockerId).azurecr.io/$(dockerRepo)/$(imageName)
+    containerRegistry: 'molldevhub'
+    command: 'login'
 
+- script: docker push $(dockerId).azurecr.io/$(dockerRepo)/$(imageName)
+  displayName: Pushing Image
