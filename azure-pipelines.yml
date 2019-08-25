@@ -22,4 +22,4 @@ steps:
     inputs:
       containerRegistry: 'molldevhub'
       command: 'push'
-      tags: 'pipeline'
+      tags: 'pipeline:latest'
