@@ -5,7 +5,7 @@
 # https://aka.ms/yaml
 
 variables:
-  dockerId: molldevhub  # Replace with your Docker ID for Docker Hub or the admin user name for the Azure Container Registry
+  dockerRegistry: molldevhub  # Replace with your Docker ID for Docker Hub or the admin user name for the Azure Container Registry
   dockerRepo: moll.dev
   imageName: pipeline  # Replace with the name of the image you want to publish
 
@@ -17,18 +17,9 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-
-- script: docker build -t $(dockerRepo)/$(imageName) docker/$(imageName)
-  displayName: Building Image
-
-- script: docker tag $(dockerRepo)/$(imageName) $(dockerId).azurecr.io/$(dockerRepo)/$(imageName)
-  displayName: Tagging Image
-
 - task: Docker@2
-  displayName: Login to MollDevHub
   inputs:
     containerRegistry: 'molldevhub'
-    command: 'login'
-
-- script: docker push molldevhub.azurecr.io/$(dockerRepo)/$(imageName)
-  displayName: Pushing Image
+    repository: 'moll.dev'
+    command: 'buildAndPush'
+    Dockerfile: '**/docker/$(imageName)/Dockerfile'
