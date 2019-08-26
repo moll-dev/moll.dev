@@ -5,7 +5,7 @@
 # https://aka.ms/yaml
 
 variables:
-  dockerRegistry: molldebhub
+  dockerRegistry: molldevhub
   dockerRepo: moll.dev
   imageName: pipeline  # Replace with the name of the image you want to publish
 
