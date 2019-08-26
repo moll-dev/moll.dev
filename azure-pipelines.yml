@@ -13,7 +13,7 @@ resources:
   containers: 
   - container: pipeline
     image: $(dockerID)/$(dockerRepo):$(imageName)
-    endpoint: molldevhub
+    endpoint: MollDevPrivateRepo
 
 container: pipeline
 
