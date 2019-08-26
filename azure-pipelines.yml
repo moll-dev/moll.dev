@@ -16,30 +16,4 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-
-- task: Docker@2
-  displayName: Build Image
-  inputs:
-    containerRegistry: 'dockerhub'
-    repository: 'moll.dev'
-    command: 'build'
-    Dockerfile: '**/docker/$(imageName)/Dockerfile'
-
-- script: docker tag moll.dev:$(Build.BuildId) "molldevhub.azurecr.io/$(dockerRepo)/$(imageName)"
-  displayName: Tag Image
-
-- script: docker tag moll.dev:$(Build.BuildId) "molldevhub"
-  displayName: Tag Image
-  
-
-- script: docker tag moll.dev:$(Build.BuildId) "blahblahblah.azurecr.io/$(dockerRepo)/$(imageName)"
-  displayName: Tag Image
-
-- task: Docker@2
-  displayName: Login molldevhub
-  inputs:
-    containerRegistry: 'molldevhub'
-    command: 'login'
-
-- script: docker push "molldevhub.azurecr.io/moll.dev/pipeline" 
-  displayName: Push Image
+  - script: echo $(dockerRepo)
