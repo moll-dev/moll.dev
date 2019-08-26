@@ -1,4 +1,6 @@
-FROM debian:bullseye
+FROM microsoft/vsts-agent:ubuntu-16.04
+
+
 MAINTAINER tom@moll.dev
 
 # Install pygments (for syntax highlighting)
@@ -43,3 +45,5 @@ RUN chmod +x ${HOME}/install_hugo.sh; bash +x ${HOME}/install_hugo.sh
 # # Create working directory
 # RUN mkdir /usr/share/blog
 # WORKDIR /usr/share/blog
+
+CMD /bin/sh
