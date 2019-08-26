@@ -7,7 +7,6 @@
 variables:
   dockerId: molldevhub
   dockerRepo: moll.dev
-  registryUrl: $
   imageName: pipeline  # Replace with the name of the image you want to publish
 
 
