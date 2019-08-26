@@ -3,19 +3,10 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-variables:
-  dockerId: molldevhub
-  dockerRepo: moll.dev
-  imageName: pipeline  # Replace with the name of the image you want to publish
 
-
-resources:
-  containers: 
-  - container: pipeline
-    image:  molldevhub.azurecr.io/$(dockerRepo):$(imageName)
-    endpoint: MollDevPrivateRepo
-
-container: pipeline
+container:
+  image: molldevhub.azurecr.io/moll.dev/pipeline
+  endpoint: MollDevPrivateRepo
 
 steps:
 - script: hugo --version
