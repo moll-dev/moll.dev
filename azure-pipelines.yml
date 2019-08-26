@@ -5,8 +5,9 @@
 # https://aka.ms/yaml
 
 variables:
-  dockerRegistry: molldevhub
+  dockerId: molldevhub
   dockerRepo: moll.dev
+  registryUrl: $
   imageName: pipeline  # Replace with the name of the image you want to publish
 
 
@@ -17,4 +18,14 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-  - script: docker build docker/$(imageName)
+  - script: docker build docker/$(imageName) -t $(dockerRepo)/$(imageName):$(Build.BuildId)
+    displayName: Build $(dockerRepo)/$(imageName) Docker image
+
+  - script: docker tag $(dockerRepo)/$(imageName):$(Build.BuildId) $(dockerId).azurecr.io/$(dockerRepo)/$(imageName)
+    displayName: Tagging $(dockerRepo)/$(imageName) for upload
+
+  - script: docker login -u $(dockerId) -p $(registrySecret) $(dockerId).azurecr.io/v2
+    displayName: Login to Registry
+
+  - script: docker push $(dockerId).azurecr.io/$(dockerRepo)/$(imageName)
+    displayName: Push $(dockerRepo)/$(imageName)
