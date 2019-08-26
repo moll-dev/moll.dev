@@ -5,6 +5,7 @@
 # https://aka.ms/yaml
 
 variables:
+  dockerRegistry: molldebhub
   dockerRepo: moll.dev
   imageName: pipeline  # Replace with the name of the image you want to publish
 
@@ -16,4 +17,4 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-  - script: echo $(dockerRepo)
+  - script: echo $(dockerRegistry)
