@@ -17,4 +17,4 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-  - script: echo $(dockerRegistry)
+  - script: docker build docker/$(imageName)
