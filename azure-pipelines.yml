@@ -11,10 +11,11 @@ variables:
 
 resources:
   containers: 
-  - container: hugo-pipeline
+  - container: pipeline
     image: $(dockerID)/$(dockerRepo):$(imageName)
+    endpoint: molldevhub
 
-container: hugo-pipeline
+container: pipeline
 
 steps:
 - script: hugo --version
