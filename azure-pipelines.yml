@@ -4,9 +4,13 @@
 # https://aka.ms/yaml
 
 
-container:
-  image: molldevhub.azurecr.io/moll.dev/pipeline
-  endpoint: MollDevPrivateRepo
+resources:
+  containers:
+  - container: pipeline_container
+    image: molldevhub.azurecr.io/moll.dev/pipeline:latest
+    endpoint: AzureCR
+
+container: pipeline_container
 
 steps:
 - script: hugo --version
