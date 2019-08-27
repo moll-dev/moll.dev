@@ -8,7 +8,7 @@ resources:
   containers:
   - container: pipeline_container
     image: molldevhub.azurecr.io/moll.dev/pipeline:latest
-    endpoint: AzureCR
+    endpoint: MollDevRegistry
 
 container: pipeline_container
 
