@@ -6,6 +6,8 @@ draft: false
 type: "about"
 ---
 
+![tom](/images/about/tom.avif)
+
 _You've reached the home page of Thomas Moll_
 
 A brief overview of my professional career:
