@@ -5,7 +5,7 @@ tags: ["philosophy", "pandemic"]
 draft: false
 ---
 
-<img src="https://cdn.moll.dev/static/images/consumption_cover.jpg">
+![alt](/images/consumption/consumption_cover.avif)
 
 
 _Boredom is something we all experience, it's universal. In this post I explore my recent experience with extreme boredom, examine modern consumer culture and how that influences our sense of freedom, autonomy and discuss their ramifications in an ever increasing virtual world amid a global pandemic._
