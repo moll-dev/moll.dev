@@ -9,7 +9,7 @@
 
 .blue-0 { color: #417B97 }	/* Main Primary color */
 .blue-1 { color: #9BC2D6 }
-.blue-2 { color: #669AB3 }
+.blue-2 { color: #548fab }
 .blue-3 { color: #2A6785 }
 .blue-4 { color: #16516D }
 
@@ -21,7 +21,7 @@
 
 .yellow-0 { color: #EEC760 }	/* Main Secondary color (1) */
 .yellow-1 { color: #FFEBB5 }
-.yellow-2 { color: #FFDF8B }
+.yellow-2 { color: #ffb700 }
 .yellow-3 { color: #D2A83A }
 .yellow-4 { color: #AC841C }
 
@@ -33,7 +33,7 @@
 
 .red-0 { color: #EE7E60 }	/* Main Secondary color (2) */
 .red-1 { color: #FFC5B5 }
-.red-2 { color: #FFA38B }
+.red-2 { color: #ff5c33 }
 .red-3 { color: #D25A3A }
 .red-4 { color: #AC3A1C }
 
@@ -60,7 +60,8 @@
 .p-red-3 { color: rgba(210, 90, 58,1) }
 .p-red-4 { color: rgba(172, 58, 28,1) }
 
-
+.grey { color: #353535 }
+.bg-washed-yellow { background-color: rgb(252, 242, 214) }
 
 
 

@@ -1,4 +1,0 @@
-from alpine:latest
-
-RUN echo "hey bby" > /var/tmp/file
-

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Univers Condensed';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Univers Condensed'), url('Univers-Condensed.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'Univers';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Univers'), url('Univers.woff') format('woff');
+    }

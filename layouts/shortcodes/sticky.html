@@ -1,0 +1,6 @@
+
+<aside {{ with .Get "id" }}id="{{.}}"{{ end }} class="sticky">
+    {{ with .Get "content"}}
+        {{. | markdownify}}
+    {{ end }}
+</aside>

@@ -1,0 +1,28 @@
+
+@font-face {
+	font-family: 'Anonymous Regular';
+	font-weight: 500;
+	font-style: normal;
+	src: url('AnonymousPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Anonymous';
+	font-weight: 100;
+	font-style: normal;
+	src: url('AnonymousPro-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Anonymous';
+	font-weight: 100;
+	font-style: normal;
+	src: url('AnonymousPro-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Anonymous';
+	font-weight: 100;
+	font-style: normal;
+	src: url('AnonymousPro-Italic.ttf') format('truetype');
+}

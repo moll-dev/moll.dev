@@ -1,12 +1,11 @@
-<nav class="db dt-l w-100 border-box pa3 ph5-l neue-haas-bold">
-    <a class="db dtc-l v-mid mid-gray link w-100 w-25-l tc tl-l mb2 mb0-l" href="/">
-        <img class="mw4" src="/images/ColorLogo.svg" alt="moll.dev logo">
+<nav class="db dt-l w-100 border-box pa3 mb3 ph5-l o">
+    <a class="db dtc-l v-mid mid-gray link w-100 w-25-l tc tl-l mb2 mb0-l " href="/">
+        <img class="mw4 pointer" src="/images/ColorLogo.svg" alt="moll.dev logo">
     </a>
     <div class="db dtc-l w-100 w-75-l tc tr-l v-mid pt3">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
-        <a class="link f5 f4-l dib mr3 mr4-l hl-nav
-            {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} hl-selected{{end}}
+        <a class="link underline navtf f2 f2-ns dib mr3 mr4-l hl-nav mt3
         {{ .Pre }}" href="{{ .URL }}" title="{{ .Name }}">
             {{ .Name }}
         </a>

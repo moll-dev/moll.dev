@@ -5,26 +5,25 @@
 # https://aka.ms/yaml
 
 variables:
-  dockerId: molldevhub
+  dockerId: molldevreg
   dockerRepo: moll.dev
   imageName: pipeline  # Replace with the name of the image you want to publish
-
-
-trigger:
-- master
 
 pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-  - script: docker build docker/$(imageName) -t $(dockerRepo)/$(imageName):$(Build.BuildId)
-    displayName: Build $(dockerRepo)/$(imageName) Docker image
 
-  - script: docker tag $(dockerRepo)/$(imageName):$(Build.BuildId) $(dockerId).azurecr.io/$(dockerRepo)/$(imageName)
-    displayName: Tagging $(dockerRepo)/$(imageName) for upload
 
-  - script: docker login -u $(dockerId) -p $(registrySecret) $(dockerId).azurecr.io/v2
-    displayName: Login to Registry
-
-  - script: docker push $(dockerId).azurecr.io/$(dockerRepo)/$(imageName)
-    displayName: Push $(dockerRepo)/$(imageName)
+- task: Docker@2
+  displayName: Login to Docker Hub
+  inputs:
+    command: 'login'
+    containerRegistry: 'MollDevReg'
+- task: Docker@2
+  displayName: Build and Push
+  inputs:
+    command: buildAndPush
+    repository: moll.dev/pipeline
+    Dockerfile: '**/docker/$(imageName)/Dockerfile'
+    tags: $(Build.BuildId)

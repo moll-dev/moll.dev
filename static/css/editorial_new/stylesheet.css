@@ -1,0 +1,140 @@
+
+@font-face {
+    font-family: 'pp_editorial_newbold';
+    src: url('ppeditorialnew-bold-webfont.woff2') format('woff2'),
+         url('ppeditorialnew-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'pp_editorial_newbold_italic';
+    src: url('ppeditorialnew-bolditalic-webfont.woff2') format('woff2'),
+         url('ppeditorialnew-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pp_editorial_newheavy';
+    src: url('ppeditorialnew-heavy-webfont.woff2') format('woff2'),
+         url('ppeditorialnew-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pp_editorial_newheavy_italic';
+    src: url('ppeditorialnew-heavyitalic-webfont.woff2') format('woff2'),
+         url('ppeditorialnew-heavyitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pp_editorial_newitalic';
+    src: url('ppeditorialnew-italic-webfont.woff2') format('woff2'),
+         url('ppeditorialnew-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pp_editorial_newlight';
+    src: url('ppeditorialnew-light-webfont.woff2') format('woff2'),
+         url('ppeditorialnew-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pp_editorial_newlight_italic';
+    src: url('ppeditorialnew-lightitalic-webfont.woff2') format('woff2'),
+         url('ppeditorialnew-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pp_editorial_newmedium';
+    src: url('ppeditorialnew-medium-webfont.woff2') format('woff2'),
+         url('ppeditorialnew-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pp_editorial_newregular';
+    src: url('ppeditorialnew-regular-webfont.woff2') format('woff2'),
+         url('ppeditorialnew-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pp_editorial_newultrabold';
+    src: url('ppeditorialnew-ultrabold-webfont.woff2') format('woff2'),
+         url('ppeditorialnew-ultrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pp_editorial_newultralight';
+    src: url('ppeditorialnew-ultralight-webfont.woff2') format('woff2'),
+         url('ppeditorialnew-ultralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pp_editorial_newultraLtIt';
+    src: url('ppeditorialnew-ultralightitalic-webfont.woff2') format('woff2'),
+         url('ppeditorialnew-ultralightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

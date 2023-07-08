@@ -1,51 +1,19 @@
 {{ define "main" }}
-<header class="flex justify-center mw6-l center ph3 pt4 pt4-m pt4-ns pb3">
-  <!-- Opener -->
-  <div class="tc tl-l mt4 mb0-l">
-    <img src="images/Tom2.png" alt="A bright blue sky" class="mw4 mw5-ns v-mid" />
-  </div>
-  <div class="v-top pl3 tc tl-l v-mid pt3">
-    <h2 class="f3-l f4-m mw4 mw6-l f5 flh-copy mv0 iosevka pl8 fw2">
-      Thomas Moll is a <a class="link" href="https://binged.it/31RXS1L">Silicon Valley</a> based Site
-      Reliability Engineer currently working at <a href="#" class="link">LinkedIn</a>
+<header class="dt center pa5-ns pa4">
+    <h2 class="dtc-ns v-mid-ns introtf fw4-ns f1-ns f3 grey tc tl-ns mw6-ns mw5 ma3-ns ma2 center">
+        Thomas Moll is a <a class="link underline dasha red-2 fw5" target="_blank" href="https://binged.it/31RXS1L">Silicon Valley</a> based, Senior <a class="link underline yellow-2 fw5 dasha " target="_blank" href="https://landing.google.com/sre/interview/ben-treynor/">Site
+        Reliability Engineer</a>, currently working at <a href="https://www.linkedin.com/" target="_blank" class="link underline dasha  blue-2 fw5 hl-blue-1">LinkedIn</a>
     </h2>
-  </div>
+    <div class="dtc-ns v-mid ph2 pr0-ns pl3-ns mw6 center mt4 mt0-ns">
+        <a href="journal/rae-lakes-2021/" target="_blank">
+        <img class="" src="https://cdn.moll.dev/static/images/rae/IMG_3419.JPEG" alt="High above the Sierras in the Notch leading up to Mt. Whitney" />
+        </a>
+    </div>
 </header>
-<br class="mt3-l mt3-m mt0">
+
 
 <article class="cf">
 
-  <!-- Project Listing -->
-  <div class="fl w-100 w-50-ns tc">
-    {{ $Name := "Projects"}}
-    <h2 class="f3 ns2 neue-haas-bold tracked-l">
-      {{ $Name }}
-    </h2>
-    {{ range where $.Pages "Section" (lower $Name) }}
-    <ul class="db list pa0 iosevka ">
-      <li class="b d">
-        <a href="{{ .RelPermalink }}" class="w-auto dib link  underline-hover blue f4 fw2 pa1">
-          {{ .Name }}</a>
-      </li>
-      {{ end }}
-    </ul>
-
-  <!-- Journal Listing -->
-  </div>
-  <div class="fl w-100 w-50-ns tc">
-    {{ $Name := "Journal"}}
-    <h2 class="f3 ns2 neue-haas-bold tracked-l">
-      {{ $Name }}
-    </h2>
-    <ul class="db list pa0 iosevka">
-      {{ range where $.Pages "Section" (lower $Name) }}
-      <li class="b db">
-        <a href="{{ .URL }}" class="w-auto dib link  underline-hover blue f4 fw2 pa1">
-          {{ .Name }}</a>
-      </li>
-      {{ end}}
-    </ul>
-  </div>
 </article>
 
 <br class="pv4">

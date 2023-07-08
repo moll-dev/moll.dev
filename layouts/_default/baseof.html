@@ -8,6 +8,19 @@
   <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/testing.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#2d89ef">
+  <meta name="theme-color" content="#ffffff">
+  <meta charset="UTF-8"/> 
+
+
 </head>
 
 <body class="fancy-background">
@@ -17,8 +30,8 @@
     {{ partial "nav.html" . }}
 
     <!--db dt-l mw6 center pv4 iosevka-->
-    <div class="ma0 na1-ns bg-white paper-outline">
-        {{ block "main" . }}{{ end }}
+    <div class="ma0 na1-ns bg-washed-yellow paper-outline">
+      {{ block "main" . }}{{ end }}
     </div>
 
     {{ partial "footer.html" }}

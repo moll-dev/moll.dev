@@ -1,0 +1,21 @@
+
+<!-- Inset Image -->
+<figure {{ with .Get "class" }}class="{{.}}"{{ end }}>
+    {{ with .Get "link"}}<a href="{{.}}">{{ end }}
+        <div class="center">
+        <img class="center" src="{{ .Get "src" }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"{{ end }} />
+         </div>
+        {{ if .Get "link"}}</a>{{ end }}
+    {{ if or (or (.Get "title") (.Get "caption")) (.Get "attr")}}
+    <figcaption class="center">{{ if isset .Params "title" }}
+        <h3 class="playfair mt2 tc fw1"><i>{{ .Get "title" }}</i></h4>{{ end }}
+        {{ if or (.Get "caption") (.Get "attr")}}<p>
+        {{ .Get "caption" }}
+        {{ with .Get "attrlink"}}<a href="{{.}}"> {{ end }}
+            {{ .Get "attr" }}
+        {{ if .Get "attrlink"}}</a> {{ end }}
+        </p> {{ end }}
+    </figcaption>
+    {{ end }}
+</figure>
+<!-- end inset image -->

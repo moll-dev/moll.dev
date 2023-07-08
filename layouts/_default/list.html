@@ -1,16 +1,23 @@
 {{ define "main" }}
 
-<div class="tc">
-  <h2 class="f3 ns2 neue-haas-bold tracked-l pt3">
+<div class="tc center w-80-ns w-100">
+  <h2 class="f1-ns f2 grey ns2 oblique pt3-ns pt1 mv3 mv4-ns">
     {{ .Title }}
   </h2>
-  {{ range .Pages.ByPublishDate.Reverse }}
-  <ul class="db list pa0 iosevka ">
-    <li class="bd pt0">
-      <div class="dib">
-        <a class="w-auto dib link underline-hover blue f4 fw2 pa1" href="{{ .RelPermalink}}" >
-          {{ .Name }}</a>
-        <h4 class="dib f5 fw1">-- {{ .Date.Month }} {{ .Date.Year }}</h4>
+
+  <ul class=" mh0 pb3 pb4-ns pl3 pr2">
+    {{ range where $.Pages "Section" (lower .Title) }}
+    <li class="list-li d db pt0">
+      <div class="flex justify-between ma0">
+        <div class="ma0">
+          <a class="mw8 f3-ns f4" style="text-align: left;
+            display:block" href="{{ .RelPermalink}}"> {{ .Name }}</a>
+        </div>
+        <div class="w-25">
+          <!-- <a class="playfair" href="{{ .RelPermalink}}" > {{ .Name }}</a> -->
+          <div class=" mh0 gray fr f3-ns f4" style="font-weight: lighter; text-align: right;
+            display:block">{{ .Date.Month }} {{ .Date.Year }}</div>
+        </div>
       </div>
     </li>
     {{ end }}

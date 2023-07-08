@@ -1,0 +1,38 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger: 
+  - master
+
+resources:
+  containers:
+  - container: pipeline_container
+    image: molldevreg.azurecr.io/moll.dev/pipeline:$(pipelineVersion)
+    endpoint: MollDevReg
+
+container: pipeline_container
+
+steps:
+- script: hugo
+  displayName: Compile Site
+
+
+- script: mkdir static_build; cp -R public/css static_build/css; cp -R public/images static_build/images
+  displayName: Move static files from Root
+
+- task: PublishBuildArtifacts@1
+  displayName: Publish Site
+  inputs:
+    PathtoPublish: 'public'
+    ArtifactName: 'site-public'
+    publishLocation: 'Container'
+- task: PublishBuildArtifacts@1
+  displayName: Publish Static 
+  inputs:
+    PathtoPublish: 'static_build'
+    ArtifactName: 'static'
+    publishLocation: 'Container'
+
+  
