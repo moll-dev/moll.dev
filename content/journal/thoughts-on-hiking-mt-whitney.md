@@ -12,7 +12,7 @@ draft: false
 
 ## Anxiety
 
-<span class="drop-caps">I</span> did a thing recently, which I think is personally remarkable. I hiked one of the tallest peaks in the US, via a difficult trail. This hike was the culmination of a few years of personal betterment, taking some newfound hobbies and putting them to good use. This is a journey that began my senior year of college.
+I did a thing recently, which I think is personally remarkable. I hiked one of the tallest peaks in the US, via a difficult trail. This hike was the culmination of a few years of personal betterment, taking some newfound hobbies and putting them to good use. This is a journey that began my senior year of college.
 
 My senior year at Iowa State was tumultuous. On the bright side, I had just finished an internship at LinkedIn with an offer in hand and more to come, all I had to do was graduate and I'd be gainfully employed. On the not so bright side, I fell into a deep depression after discovering my ex-girlfriend cheated on me the summer I was away. It was the dagger in an already lifeless relationship. Shortly after, I was diagnosed with Generalized Anxiety Disorder and put on medication to prevent me from spiraling. Needless to say, it was a rough time.
 

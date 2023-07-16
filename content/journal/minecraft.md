@@ -5,7 +5,7 @@ tags: ["life"]
 draft: false
 ---
 
-<span class="drop-caps">I</span>f I were to rank the hours invested in something so far in my life, first is Computer Engineering, second is Minecraft. Unfortunately, I don't play much since college; Minecraft is a game which tends to draw you into the early hours of the morning. Something I would regularly do in high school, eschewing my homework and exploring virtual worlds built by other kids just like me, making friends, and learning digitial logic on accident.
+If I were to rank the hours invested in something so far in my life, first is Computer Engineering, second is Minecraft. Unfortunately, I don't play much since college; Minecraft is a game which tends to draw you into the early hours of the morning. Something I would regularly do in high school, eschewing my homework and exploring virtual worlds built by other kids just like me, making friends, and learning digitial logic on accident.
 <br>
 <hr>
 <p class="f5">

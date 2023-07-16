@@ -11,7 +11,7 @@ draft: false
 
 ## All things considered;  I've had a pretty good 2019
 
-<span class="drop-caps">H</span>ere's a bulleted list of some of the good things:
+Here's a bulleted list of some of the good things:
 <br>
 <br>
 <br>
