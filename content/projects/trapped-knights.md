@@ -219,7 +219,7 @@ end
 Then let's use it to overlay our path with prime markers. 
 
 
-{{< highlight  julia "linenos=table" >}}
+```julia
 plot(path, lims = (-35,35), aspect_ratio = :equal, legend = :bottomright, label = ["knight's path", ""])
 
 prime_positions = Array{Tuple{Int, Int}}(undef, 0)
