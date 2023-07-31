@@ -5,6 +5,8 @@ tags: []
 draft: false
 ---
 <br>
+<img src=/images/hydroponics/green_plants.avif class="center">
+
 I've always thought of the humble gardener as some sort of wizard. They plant a seed, watch it sprout, then carefully assist the plant until it's ready to harvest. I had previously tried to keep a couple of succulents alive, with almost all of them rotting or dying out due to a lack of water, growing food seemed even further out of the question. My adventure into hydroponics started out of this frustration: "how the hell do other people grow plants so well?"
 
 
