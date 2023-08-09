@@ -149,7 +149,7 @@ From this point, I installed Ubuntu 22.04 LTS from a flash drive and got to work
 
 That's it for this build, thanks for reading! Stay tuned for some benchmarking numbers once I settle on what software I want to use. If you're interested in the additional modifications I made to this build, feel free to continue reading.
 
-# Addendum - Modificatiosn {#mods}
+# Addendum - Modifications {#mods}
 
 While this section isn't strictly necessary, I decided to go the extra mile to ensure my system would be cool and functionally silent. These mods will require access to a dremel, 3D printer, and some basic fabrication skills
 
