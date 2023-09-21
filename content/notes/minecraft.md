@@ -6,7 +6,7 @@ draft: false
 ---
 
 If I were to rank the hours invested in something so far in my life, first is Computer Engineering, second is Minecraft. Unfortunately, I don't play much since college; Minecraft is a game which tends to draw you into the early hours of the morning. Something I would regularly do in high school, eschewing my homework and exploring virtual worlds built by other kids just like me, making friends, and learning digitial logic on accident.
-<br>
+
 <hr>
 <p class="f5">
 For those who haven't heard of, or played, Minecraft. It's a voxel (block) based survival game. You start out with nothing, collect resources, craft tools and explore caves. The game has a day / night system which spawns more monsters for you to fight. In recent years, Mojang, the active developers of the game, have added more systems such as villages, different realms, and new types of biomes. In addition, Minecraft has a very active playerbase populating thousands of custom servers. 

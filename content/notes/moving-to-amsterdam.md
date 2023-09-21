@@ -1,6 +1,7 @@
 ---
 title: "Moving to Amsterdam"
 date: 2023-09-20T12:36:25-07:00
+tags: []
 draft: false
 ---
 

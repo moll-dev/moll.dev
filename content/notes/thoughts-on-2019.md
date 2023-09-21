@@ -12,11 +12,6 @@ draft: false
 ## All things considered;  I've had a pretty good 2019
 
 Here's a bulleted list of some of the good things:
-<br>
-<br>
-<br>
-
-
 - Climbed Mt. Whitney in September.
 - Continued to build my cooking skills with Cassady.
 - Got promoted to Senior Site Reliability Engineer.

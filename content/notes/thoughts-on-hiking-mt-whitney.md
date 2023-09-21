@@ -14,7 +14,7 @@ draft: false
 
 I did a thing recently, which I think is personally remarkable. I hiked one of the tallest peaks in the US, via a difficult trail. This hike was the culmination of a few years of personal betterment, taking some newfound hobbies and putting them to good use. This is a journey that began my senior year of college.
 
-My senior year at Iowa State was tumultuous. On the bright side, I had just finished an internship at LinkedIn with an offer in hand and more to come, all I had to do was graduate and I'd be gainfully employed. On the not so bright side, I fell into a deep depression after discovering my ex-girlfriend cheated on me the summer I was away. It was the dagger in an already lifeless relationship. Shortly after, I was diagnosed with Generalized Anxiety Disorder and put on medication to prevent me from spiraling. Needless to say, it was a rough time.
+My senior year at Iowa State was tumultuous. On the bright side, I had just finished an internship at LinkedIn with an offer in hand and more to come, all I had to do was graduate and I'd be gainfully employed. On the not so bright side, I fell into a deep depression after discovering my ex-girlfriend cheated on me the summer I was away.
 
 <img src="https://cdn.moll.dev/static/journal/album1/20160910_192758.jpg">
 <figcaption class="center">
@@ -107,8 +107,6 @@ The lake sits at 12,000 ft. which is 4,000 ft above Whitney Portal. At 8 miles i
 </figcaption>
 
 <hr class="b--dashed bw1 yellow-1 w-75 mt4">
-<br>
-
 <img src="https://photos.smugmug.com/Mt-Whitney-August-2017/i-qqD9R3b/0/d3718539/XL/mountaineering%20route%203-XL.jpg">
 <figcaption class="center">
     <h3 class="playfair mt2 tc fw1"><i>The route up to the top</i><br>via <a href="http://highsierratopix.com/community/viewtopic.php?t=16831">highsierratopix.com</a></h4>
@@ -160,7 +158,7 @@ While we were figuring out the heck to climb the face, there was another hiker u
     
 
 <hr class="b--dashed bw1 yellow-1 w-75 mt4">
-<br>
+
 
 <img src="https://cdn.moll.dev/static/journal/album1/IMG_20190920_124445.jpg">
 <figcaption class="center">
@@ -187,7 +185,6 @@ After collecting myself, we headed off down the regular Mt. Whitney route. we ha
 I honestly don't remember much from the downclimb, we hiked through a couple of nice campsites, stopped briefly to drink from a mountain spring, and hauled ass to get back to the bus. Once we boarded, I repacked my bag and immediately fell asleep.
 
 <hr class="b--dashed bw1 yellow-1 w-75 mt4">
-<br>
 
 I'll be honest, once I got back to the Bay Area, I didn't hike for a while. Nothing around here could top the experience, and I don't have another big hike to train for. I did get back into bouldering, which I found much easier to control my breathing and fear response while on the wall.
 

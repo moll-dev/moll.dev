@@ -1,22 +1,20 @@
 {{ define "main" }}
 
 <div class="tc center w-80-ns w-100">
-  <p class="f2-ns f3 grey ns2 pt3-ns pt1 mv1 mv2-ns lighttf">
-    {{ .Title }}
+  <p class="f3-ns f4 grey ns2 pt3 mv1 mv2-ns lighttf">
+    {{ .Name }}
   </p>
 
-  <ul class=" mh0 pb3 pb4-ns pl3 pr2 w-100">
-    {{ range where $.Pages "Section" (lower .Title) }}
+  <ul class="mh0 pb3 pb2-ns pl3 pr2 w-100">
+    {{ range $.Pages }}
     <li class="list-li d db pt0">
       <div class="flex ma0 center-items">
         <div class="w-30">
-          <!-- <a class="playfair" href="{{ .RelPermalink}}" > {{ .Name }}</a> -->
           <div class=" mh0 gray fr f4-ns f5" style="font-weight: lighter; text-align: right;
             display:block">{{ .Date.Month }} {{ .Date.Year }}</div>
         </div>
         <div class="w-70 ma0 ml3">
-          <a class="mw8 f4-ns f5" style="text-align: left;
-            display:block" href="{{ .RelPermalink}}"> {{ .Name }}</a>
+          <a class="mw8 f4-ns f5" style="text-align: left; display:block" href="{{ .RelPermalink}}"> {{ .Name }}</a>
         </div>
       </div>
     </li>

@@ -1,6 +1,6 @@
 ---
 title: "Julia used Multiple Dispatch! It's Super Effective!"
-date: 2021-07-19T15:44:36-07:00
+date: 2019-08-18T15:58:49-07:00
 tags: ["julia", "type-systems", "multiple-dispatch"]
 draft: false
 ---

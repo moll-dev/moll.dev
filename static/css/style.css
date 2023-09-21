@@ -48,6 +48,7 @@
     --riso-marine-red: rgb(210, 81, 94);
     --riso-blue: rgb(0,120,121);
     --riso-paper: rgb(255, 252, 235);
+    --riso-paper-darker: rgb(237, 234, 217);
 
     --color-action: var(--riso-blue);
 }
@@ -388,6 +389,19 @@ h2, h3, h4 {
     }
 }
 
+img {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (max-width: 40rem) {
     .sticky {
         padding: 0.5rem 0rem 0.5rem 1rem;
@@ -469,6 +483,13 @@ blockquote p {
 }
 
 @media (max-width: 30rem) {
+
+    img {
+        max-width: 105%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
     p {
         font-size: 1rem;
         font-family: "SF Pro";

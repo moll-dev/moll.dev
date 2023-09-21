@@ -9,7 +9,6 @@ draft: false
 
 {{< better_vimeo 503644203 >}}
 {{< sticky id="2" content="Scroll through the entire post for more neat animations!" >}}
-<br>
 
 Computer graphics have been an interest of mine for as long as I've used a computer. The ability to create life like renderings has always held my captivation in one way or another. I grew up using open source graphics software like [GIMP](https://www.gimp.org/) and later [Blender3D](https://www.blender.org/). I fondly remember letting the family laptop run all night rendering frames for a 3D animation I had made in Blender for school. Being able to _theoretically_ produce photorealistic images like Pixar or Lucasfilm made me feel like I could create my own reality, only given enough time and patience. Instead of going to school for animation, I hedged my bets on studying Computer Engineering, learning _how_ the computer worked rather than learning how to use the suites of programs to their fullest. Throughout university I kept up with computer graphics by reading SIGGRAPH papers, watching the talks, and trying to implement some basic graphics programs myself. 
 

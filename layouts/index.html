@@ -1,36 +1,37 @@
 {{ define "main" }}
-<div class="dt center pa4-ns pa4 mw40">
-    <div class="dtc-ns v-mid-ns ph2 pr0-ns pr3-ns mw5 center mt4 mt0-ns">
-      <img class="clipped" src="/images/index/IMG_7752.avif" alt="On Mount Shasta at 9k feet" />
+<div class="dt center pa4-ns pb2 pa4 mw40">
+  <div class="dtc-ns v-mid-ns ph2 pr0-ns pr3-ns mw5 center mt4 mt0-ns">
+    <img class="clipped" src="/images/index/IMG_7752.avif" alt="On Mount Shasta at 9k feet" />
   </div>
-    <p class="dtc-ns v-mid-ns introtf grey tc tl-ns mw5 f3 ma3-ns ma2 center">
-        Thomas Moll is a <a class="link underline dasha red-2 fw5" target="_blank" href="https://binged.it/31RXS1L">Silicon Valley</a> based, Senior <a class="link underline yellow-2 fw5 dasha " target="_blank" href="https://landing.google.com/sre/interview/ben-treynor/">Site
-        Reliability Engineer</a>, soon to be working at <a href="https://www.booking.com/" target="_blank" class="link underline dasha  blue-2 fw5 hl-blue-1">Booking.com</a>
-    </p>
+  <p class="dtc-ns v-mid-ns introtf grey tc tl-ns mw5 f3-ns f4 ma3-ns ma2 center">
+    Thomas Moll is a <a class="link underline dasha red-2 fw5" target="_blank" href="https://binged.it/31RXS1L">Silicon
+      Valley</a> based, Senior <a class="link underline yellow-2 fw5 dasha " target="_blank"
+      href="https://landing.google.com/sre/interview/ben-treynor/">Site
+      Reliability Engineer</a>, joining <a href="https://www.booking.com/" target="_blank"
+      class="link underline dasha  blue-2 fw5 hl-blue-1">Booking.com</a>
+  </p>
 
 </div>
 <div class="tc center w-80-ns w-80 bt">
-    <p class="f3-ns f4 grey lighttf">
-      Latest
-    </p>
-    <ul class=" mh0 pb3 pb4-ns items-end">
-      {{range first 7 .Site.RegularPages}}
-      <li class="list-li d db pt0">
-        <div class="flex ma0 center-items">
-          <div class="w-30">
-            <!-- <a class="playfair" href="{{ .RelPermalink}}" > {{ .Name }}</a> -->
-            <div class="list2 mh0 gray fr" style="text-align: right;
+  <p class="f3-ns f4 grey lighttf">
+    Latest
+  </p>
+  <ul class=" mh0 pb2 pb2-ns items-end">
+    {{range first 7 .Site.RegularPages}}
+    <li class="list-li d db pt0">
+      <div class="flex ma0 center-items">
+        <div class="w-30">
+          <!-- <a class="playfair" href="{{ .RelPermalink}}" > {{ .Name }}</a> -->
+          <div class="list2 mh0 gray fr" style="text-align: right;
               display:block">{{ .Date.Month }} {{ .Date.Year }}</div>
-          </div>
-          <div class="w-50 ma0 ml3">
-            <a class="mw8 list2" style="text-align: left;
-              display:block" href="{{ .RelPermalink}}"> {{ .Name }}</a>
-          </div>
         </div>
-      </li>
-      {{ end }}
-    </ul>
-  </div>
-
-<br class="pv4">
+        <div class="w-50 ma0 ml3">
+          <a class="mw8 list2" style="text-align: left;
+              display:block" href="{{ .RelPermalink}}"> {{ .Name }}</a>
+        </div>
+      </div>
+    </li>
+    {{ end }}
+  </ul>
+</div>
 {{ end }}

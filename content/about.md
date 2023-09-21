@@ -6,8 +6,6 @@ draft: false
 type: "about"
 ---
 
-<img class="clipped center w-50" src="/images/about/tom.avif"/>
-
 _You've reached the home page of Thomas Moll_
 
 A brief overview of my professional career:
@@ -25,12 +23,7 @@ Outside of professional work I do a lot of side projects in software, typically 
 My sans-software projects include hiking, travelling with my wife, cooking and growing hydroponic lettuce. I've written about a few of these things (see: Journal). I'm a firm beliver in the growth mindset; I consider myself generally well-rounded, continually learning in the pursuit of becoming a better person.
 
 
-<p class="f6">p.s. If you'd like to contact me, here's my <a href="https://www.linkedin.com/in/thomasmoll/">LinkedIn</a> or if you prefer email: [tom] @ [this domain]<p>
-
-
-
-<h1 style="font-family: pp_editorial_newultraLtIt">- Tom</h1>
-
+<p class="f5">p.s. If you'd like to contact me, here's my <a href="https://www.linkedin.com/in/thomasmoll/">LinkedIn</a> or if you prefer email: [tom] @ [this domain]<p>
 
 
 
