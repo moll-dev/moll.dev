@@ -468,9 +468,3 @@ Benchmarking world size 256  ... 25.906 ms  (3300 allocations: 101.56 KiB)
 Benchmarking world size 512  ... 75.254 ms  (3700 allocations: 107.81 KiB)
 Benchmarking world size 1024 ... 223.983 ms (3700 allocations: 107.81 KiB)
 ```
-
-# Future Work
-
-I'll leave it here for now, I hope you enjoyed reading my work and maybe learned something along the way. 
-
-I'm planning on revisiting this in the future, so stay tuned for more.

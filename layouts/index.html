@@ -1,31 +1,30 @@
 {{ define "main" }}
-<div class="dt center pa5-ns pa4">
-    <h2 class="dtc-ns v-mid-ns introtf fw4-ns f1-ns f3 grey tc tl-ns mw6-ns mw5 ma3-ns ma2 center">
-        Thomas Moll is a <a class="link underline dasha red-2 fw5" target="_blank" href="https://binged.it/31RXS1L">Silicon Valley</a> based, Senior <a class="link underline yellow-2 fw5 dasha " target="_blank" href="https://landing.google.com/sre/interview/ben-treynor/">Site
-        Reliability Engineer</a>, currently working at <a href="https://www.linkedin.com/" target="_blank" class="link underline dasha  blue-2 fw5 hl-blue-1">LinkedIn</a>
-    </h2>
-    <div class="dtc-ns v-mid ph2 pr0-ns pl3-ns mw6 center mt4 mt0-ns">
-        <img class="" src="/images/index/IMG_7752.avif" alt="On Mount Shasta at 9k feet" />
-    </div>
+<div class="dt center pa4-ns pa4 mw40">
+    <div class="dtc-ns v-mid ph2 pr0-ns pr3-ns mw5 center mt4 mt0-ns">
+      <img class="clipped" src="/images/index/IMG_7752.avif" alt="On Mount Shasta at 9k feet" />
   </div>
+    <p class="dtc-ns v-mid-ns introtf grey tc tl-ns mw5 ma3-ns ma2 center">
+        Thomas Moll is a <a class="link underline dasha red-2 fw5" target="_blank" href="https://binged.it/31RXS1L">Silicon Valley</a> based, Senior <a class="link underline yellow-2 fw5 dasha " target="_blank" href="https://landing.google.com/sre/interview/ben-treynor/">Site
+        Reliability Engineer</a>, soon to be working at <a href="https://www.booking.com/" target="_blank" class="link underline dasha  blue-2 fw5 hl-blue-1">Booking.com</a>
+    </p>
 
-<div class="tc center w-80-ns w-100">
-    <h2 class="f1-ns f2 grey ns2 oblique pt3-ns pt1 mv3 mv4-ns" style="font-family: pp_editorial_newultraLtIt">
-      Recent Writings
-    </h2>
-  
-    <ul class=" mh0 pb3 pb4-ns pl3 pr2">
+</div>
+<div class="tc center w-80-ns bt">
+    <h3 class="f3-ns f2 pt2-ns pt1 grey lighttf">
+      Latest
+    </h3>
+    <ul class=" mh0 pb3 pb4-ns items-end">
       {{range first 5 .Site.RegularPages}}
       <li class="list-li d db pt0">
-        <div class="flex justify-between ma0">
-          <div class="ma0">
-            <a class="mw8 f3-ns f4" style="text-align: left;
-              display:block" href="{{ .RelPermalink}}"> {{ .Name }}</a>
-          </div>
-          <div class="w-25">
+        <div class="flex ma0 center-items">
+          <div class="w-30">
             <!-- <a class="playfair" href="{{ .RelPermalink}}" > {{ .Name }}</a> -->
-            <div class=" mh0 gray fr f3-ns f4" style="font-weight: lighter; text-align: right;
+            <div class=" mh0 gray fr f4-ns f3" style="font-weight: lighter; text-align: right;
               display:block">{{ .Date.Month }} {{ .Date.Year }}</div>
+          </div>
+          <div class="w-50 ma0 ml3">
+            <a class="mw8 f4-ns f5" style="text-align: left;
+              display:block" href="{{ .RelPermalink}}"> {{ .Name }}</a>
           </div>
         </div>
       </li>

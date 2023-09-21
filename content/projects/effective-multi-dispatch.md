@@ -7,7 +7,7 @@ draft: false
 
 ![Pokelogo](https://cdn.moll.dev/static/images/pokejulia/pokelogo-01.png)
 
-These days, I find myself evangelizing for [Julia](https://julialang.org/) quite a bit. It's a good language, especially for scientific computing, but I believe its focus on performance also makes it a good general language as well. At some level, programmers who know multiple languages have an abstract understanding of the constructs used within various languages: I/O, looping, branching, etc. And there's an understanding that if you needed to write some computation, given enough time, you could probably write it in any language I gave you. 
+<span class="drop-caps">T</span>hese days, I find myself evangelizing for [Julia](https://julialang.org/) quite a bit. It's a good language, especially for scientific computing, but I believe its focus on performance also makes it a good general language as well. At some level, programmers who know multiple languages have an abstract understanding of the constructs used within various languages: I/O, looping, branching, etc. And there's an understanding that if you needed to write some computation, given enough time, you could probably write it in any language I gave you. 
 
 That being said, there are a number of "nice to have" features that greatly improve the programming experience. For instance: generics, polymorphic structures, dynamic typing, multiprocessing, libraries, etc. These aren't necessarily deal breakers, but they can greatly increase the ease at which code is written, reducing unnecessary complexity, and improving collaboration. 
 
@@ -345,5 +345,3 @@ eff(atk::Flying, def::Flying) = NO_EFFECT
 We've added a completely new type, and all of its interactions, completely separate from any other implementations! And in the future, if we miss any new types, we'll fall back to the generic case!
 
 Wrapping up, I've shown that Julia's dynamic type system and multiple dispatch are powerful tools that enable extremely expressive code and trivial extensibility. Hopefully I've convinced you to at least check out Julia, if not try and use it in your next side project. Thanks again for reading!
-
-∎

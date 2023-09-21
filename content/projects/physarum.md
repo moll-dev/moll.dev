@@ -225,5 +225,3 @@ A bonus render, featuring an  interesting orange sample from testing my CMYK lik
 
 
 Anyways, I'll most likely revisit this project in the future, as I accidentally wrote a great framework for visualizing agent based simulations. However, I'm quite burnt out from debugging, writing, and relearning Illustrator for those slick graphics earlier. Thanks again for reading and I hope you enjoyed coming with me on this little journey!
-
-∎

@@ -18,13 +18,7 @@ unsafe= true
     title = "blog section"
     url = "/about/"
     pre = "blue-2 hl-blue-1"
-
-  [[menu.main]]
-    identifier = "Journal"
-    name = "Journal"
-    title = "blog section"
-    url = "/journal/"
-    pre = "yellow-2 hl-yellow-1"
+    weight = 1
 
   [[menu.main]]
     identifier = "Projects"
@@ -32,4 +26,12 @@ unsafe= true
     title = "blog section"
     url = "/projects/"
     pre = "red-2 hl-red-1"
+    weight = 2
 
+  [[menu.main]]
+    identifier = "Notes"
+    name = "Notes"
+    title = "blog section"
+    url = "/notes/"
+    pre = "yellow-2 hl-yellow-1"
+    weight = 3

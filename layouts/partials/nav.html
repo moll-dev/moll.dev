@@ -1,11 +1,11 @@
-<nav class="db dt-l w-100 border-box pa3 mb3 ph5-l o">
-    <a class="db dtc-l v-mid mid-gray link w-100 w-25-l tc tl-l mb2 mb0-l " href="/">
-        <img class="mw4 pointer" src="/images/ColorLogo.svg" alt="moll.dev logo">
+<nav class="db dt-l w-100 border-box pa3 mb3 ph5-l center-items">
+    <a class="db dtc-l mid-gray link w-50-l tl-l mb2 mb0-l " href="/">
+        <img class="" src="/images/ThomasMoll_2.svg" alt="moll.dev logo">
     </a>
-    <div class="db dtc-l w-100 w-75-l tc tr-l v-mid pt3">
+    <div class="db dtc-l w-50-l tc mr4-l tr-l pt3">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
-        <a class="link underline navtf f2 f2-ns dib mr3 mr4-l hl-nav mt3
+        <a class="link underline navtf f3 f3-ns hl-nav mt3 ml2
         {{ .Pre }}" href="{{ .URL }}" title="{{ .Name }}">
             {{ .Name }}
         </a>

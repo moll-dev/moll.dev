@@ -23,7 +23,7 @@
 
 <body class="fancy-background">
   <!-- Main Container -->
-  <div class="mw8 center pa3 ma3">
+  <main class="mw8 center pa3 ma3">
     <!-- Header -->
     {{ partial "nav.html" . }}
 
@@ -31,8 +31,10 @@
     <div class="ma0 na1-ns bg-washed-yellow paper-outline">
       {{ block "main" . }}{{ end }}
     </div>
-
-    {{ partial "footer.html" }}
+  </main>
+  <script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 </body>
 
 </html>
