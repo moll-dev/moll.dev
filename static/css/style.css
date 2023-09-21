@@ -361,6 +361,9 @@ h2, h3, h4 {
 
 }
 
+.list2 {
+    font-size: 0.9em;
+}
 
 @media (max-width: 80rem) {
     .sticky {

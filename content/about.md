@@ -6,7 +6,7 @@ draft: false
 type: "about"
 ---
 
-![tom](/images/about/tom.avif)
+<img class="clipped center w-50" src="/images/about/tom.avif"/>
 
 _You've reached the home page of Thomas Moll_
 
