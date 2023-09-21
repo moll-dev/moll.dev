@@ -8,7 +8,7 @@
         {{ range .Site.Menus.main }}
         {{ $active := or ($current.IsMenuCurrent "nav" .) ($current.HasMenuCurrent "nav" .) }}
         {{ $active = or $active (eq .Name $current.Title) }}
-        {{ $active = or $active (eq .URL $current.RelPermalink) }}
+        {{ $active := in $current.RelPermalink .URL }}
         <a class="link underline navtf f3 f3-ns hl-nav mt3 ml2 {{ if $active }}active{{ end }}
         {{ .Pre }}" href="{{ .URL }}" title="{{ .Name }}">
             {{ .Name }}
