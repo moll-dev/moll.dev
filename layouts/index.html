@@ -9,17 +9,17 @@
     </p>
 
 </div>
-<div class="tc center w-80-ns bt">
-    <h3 class="f3-ns f2 pt2-ns pt1 grey lighttf">
+<div class="tc center w-80-ns w-80 bt">
+    <p class="f3-ns f4 grey lighttf">
       Latest
-    </h3>
+    </p>
     <ul class=" mh0 pb3 pb4-ns items-end">
       {{range first 7 .Site.RegularPages}}
       <li class="list-li d db pt0">
         <div class="flex ma0 center-items">
           <div class="w-30">
             <!-- <a class="playfair" href="{{ .RelPermalink}}" > {{ .Name }}</a> -->
-            <div class="list2 mh0 gray fr" style="font-weight: lighter; text-align: right;
+            <div class="list2 mh0 gray fr" style="text-align: right;
               display:block">{{ .Date.Month }} {{ .Date.Year }}</div>
           </div>
           <div class="w-50 ma0 ml3">
