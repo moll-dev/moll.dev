@@ -5,7 +5,7 @@
     {{ .Title }}
   </p>
 
-  <ul class=" mh0 pb3 pb4-ns pl3 pr2">
+  <ul class=" mh0 pb3 pb4-ns pl3 pr2 w-100">
     {{ range where $.Pages "Section" (lower .Title) }}
     <li class="list-li d db pt0">
       <div class="flex ma0 center-items">
@@ -14,7 +14,7 @@
           <div class=" mh0 gray fr f4-ns f5" style="font-weight: lighter; text-align: right;
             display:block">{{ .Date.Month }} {{ .Date.Year }}</div>
         </div>
-        <div class="w-50 ma0 ml3">
+        <div class="w-70 ma0 ml3">
           <a class="mw8 f4-ns f5" style="text-align: left;
             display:block" href="{{ .RelPermalink}}"> {{ .Name }}</a>
         </div>
