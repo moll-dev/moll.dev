@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="dt center pa4-ns pb2 pa4 mw40">
-  <div class="dtc-ns v-mid-ns ph2 pr0-ns pr3-ns mw5 center mt4 mt0-ns">
+  <div class="dtc-ns v-mid-ns ph2-ns ph0 pr0-ns pr3-ns mw5 center mt2-ns">
     <img class="clipped" src="/images/index/IMG_7752.avif" alt="On Mount Shasta at 9k feet" />
   </div>
   <p class="dtc-ns v-mid-ns introtf grey tc tl-ns mw5 f3-ns f4 ma3-ns ma2 center">
@@ -16,18 +16,16 @@
   <p class="f3-ns f4 grey lighttf">
     Latest
   </p>
-  <ul class=" mh0 pb2 pb2-ns items-end">
+  <ul class=" mh0 pb0 pb2-ns">
     {{range first 10 .Site.RegularPages}}
     <li class="list-li d db pt0">
       <div class="flex ma0 center-items">
-        <div class="w-30">
-          <!-- <a class="playfair" href="{{ .RelPermalink}}" > {{ .Name }}</a> -->
-          <div class="list2 mh0 gray fr" style="text-align: right;
-              display:block">{{ .Date.Month }} {{ .Date.Year }}</div>
+        <div class="w-30-ns w-10">
+          <div class="mh0 gray fr f4-ns f6" style="font-weight: lighter; text-align: right;
+            display:block">{{ .Date.Month }} {{ .Date.Year }}</div>
         </div>
-        <div class="w-50 ma0 ml3">
-          <a class="mw8 list2" style="text-align: left;
-              display:block" href="{{ .RelPermalink}}"> {{ .Name }}</a>
+        <div class="w-60-ns w-90 ma0 ml3">
+          <a class="mw8 f4-ns f5" style="text-align: left; display:block" href="{{ .RelPermalink}}"> {{ .Name }}</a>
         </div>
       </div>
     </li>

@@ -26,6 +26,7 @@
     --line-height: 1.5;
   
     @media (max-width: 860px) {
+
       --wrap-normal: 88vw;
       --wrap-wide: 100vw;
       --input-width: 100%;
@@ -33,6 +34,15 @@
         --border-radius: 0;
         --image-radius: 0;
       }
+    }
+    
+    @media (max-width: 960px) {
+        .logo {
+            text-align: center !important;
+            display: block;
+            position: relative;
+            top: 5px;
+        }
     }
   }
 
@@ -403,6 +413,8 @@ img {
 }
 
 @media (max-width: 40rem) {
+
+
     .sticky {
         padding: 0.5rem 0rem 0.5rem 1rem;
         background-color:rgba(255,223,139,1);
@@ -482,7 +494,20 @@ blockquote p {
     line-height: 1.2;
 }
 
+.logo {
+    display: inline;
+    position: relative;
+    top: 5px;
+}
+
 @media (max-width: 30rem) {
+
+    .logo {
+        text-align: center;
+        display: block;
+        position: relative;
+        top: 5px;
+    }
 
     img {
         max-width: 105%;
