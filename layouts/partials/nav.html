@@ -1,16 +1,20 @@
-<nav class="db dt-l w-100 border-box pa3-ns pa0 mb3 ph5-l center-items">
-    <a class="db dtc-l link mb2 mb0-l " href="/">
-        <img class="logo" src="/images/ThomasMoll_2.svg" alt="moll.dev logo">
-    </a>
-    <div class="db dtc-l w-50-l tc mr4-l tr-l pt3-ns pt0">
-        {{ $current := . }}
-        {{ range .Site.Menus.main }}
-        {{ $active := or ($current.IsMenuCurrent "nav" .) ($current.HasMenuCurrent "nav" .) }}
-        {{ $active := in $current.RelPermalink .URL }}
-        <a style="position: relative; top: 3px;" class="link underline navtf f3 f3-ns hl-nav mt3 ml2 {{ if $active }}active{{ end }}
-        {{ .Pre }}" href="{{ .URL }}" title="{{ .Name }}">
-            {{ .Name }}
+<nav class="w-100 pa3-ns pa0 mb3-l mb2 ph5-ns ">
+    <div class="">
+        <a class="mw7" href="/">
+            <img class="logo" src="/images/ThomasMoll_2.svg" alt="moll.dev logo">
         </a>
-        {{ end }}
+    </div>
+    <div class="nav-items flex justify-end items-end">
+    {{ $current := . }}
+    {{ range .Site.Menus.main }}
+    {{ $active := or ($current.IsMenuCurrent "nav" .) ($current.HasMenuCurrent "nav" .) }}
+    {{ $active := in $current.RelPermalink .URL }}
+        <div class="ph2 pl3-l">
+            <a class="link navtf f3 f3-ns {{ if $active }}active{{ end }}
+            {{ .Pre }}" href="{{ .URL }}" title="{{ .Name }}">
+                {{ .Name }}
+            </a>
+        </div>
+    {{ end }}
     </div>
 </nav>

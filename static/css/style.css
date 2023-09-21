@@ -8,7 +8,13 @@
 @import url("/css/sf_pro/style.css");
 @import url("tachyons.min.css");
 
-
+nav {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
 
 :root {
     --font-content: Arial;
@@ -40,9 +46,7 @@
         .logo {
             text-align: center !important;
             display: block;
-            position: relative;
-            top: 5px;
-            left: 5px;
+            margin-left: auto;
         }
     }
   }
@@ -53,6 +57,12 @@
     max-width: var(--wrap-wide);
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+}
+
+.logo {
+    margin-left: 0;
+    position: relative;
+    bottom: 0px;
 }
 
 :root {
@@ -495,20 +505,18 @@ blockquote p {
     line-height: 1.2;
 }
 
-.logo {
-    display: inline;
-    position: relative;
-    top: 5px;
+@media (max-width: 730px) {
+    .nav-items {
+        margin-top: .5em;
+    }
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
 }
 
 @media (max-width: 30rem) {
-
-    .logo {
-        text-align: center;
-        display: block;
-        position: relative;
-        top: 5px;
-    }
 
     img {
         max-width: 105%;
