@@ -255,8 +255,10 @@ a[rev='footnote'] {
  text-decoration: none;
 }
 
-.hl-nav:hover {
-    text-decoration: solid;
+.hl-nav:hover, .active {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 1.5px;
 }
 
 article {
@@ -347,7 +349,7 @@ h2, h3, h4 {
     max-width: 15rem;
     max-height: 15rem;
     font-size: 1.1rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "SF Pro";
     margin-bottom: 2rem;
     position: absolute;
     right: -15%;
@@ -376,7 +378,7 @@ h2, h3, h4 {
         width: unset;
 
         font-size: 1rem;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: "SF Pro";
         -moz-box-shadow: 6px 6px 0px 0px  #9BC2D640;
         -webkit-box-shadow:6px 6px 0px 0px  #9BC2D640;
         box-shadow:  6px 6px 0px 0px  #9BC2D640;
