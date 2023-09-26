@@ -6,6 +6,7 @@ draft: false
 ---
 
 ![img](/images/zero2hero/mlp_graph.png)
+
 This past weekend I set aside some time to do a deep dive into neural networks, specifically the smallest components, building a ground up neural network from scratch in Julia. This article will roughly cover the first episode of [Andrej Karpathy's "Zero to Hero" series](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ). Also, you can find his implementation of micrograd on [github](https://github.com/karpathy/micrograd/tree/master). I'll be building writing our own;with a compute graph, basic neural network, and training functionality.
 
 [You can follow along by downloading my Pluto.jl notebook here](/notebooks/micrograd.html)
