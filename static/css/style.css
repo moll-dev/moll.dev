@@ -184,7 +184,7 @@ a {
 }
 
 
-.o {
+.ob {
     font-style: oblique;
 }
 
@@ -424,8 +424,6 @@ img {
 }
 
 @media (max-width: 40rem) {
-
-
     .sticky {
         padding: 0.5rem 0rem 0.5rem 1rem;
         background-color:rgba(255,223,139,1);
