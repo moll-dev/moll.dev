@@ -8,6 +8,8 @@
 @import url("/css/sf_pro/style.css");
 @import url("tachyons.min.css");
 
+ /* Notice: I am NOT a front end web dev / designer in the slightest. */
+ /* Most of this code was hacked together from tutorials and other websites :) */
 nav {
     padding: 0;
     margin: 0;
@@ -63,6 +65,7 @@ nav {
     margin-left: 0;
     position: relative;
     bottom: 0px;
+    max-width: 110%;
 }
 
 :root {
