@@ -8,8 +8,10 @@ type: "about"
 
 _You've reached the home page of Thomas Moll_
 
+I'm a Senior Site Reliability Engineer living and working in Amsterdam. I'm currently helping Booking.com scale their database platform.
+
 A brief overview of my professional career:
-- Currently: working as a Senior SRE on LinkedIn's Search Platform, writing services in GoLang / Python focused on observability, monitoring, and cluster orchestration.
+- Previously: working as a Senior SRE on LinkedIn's Search Platform, writing services in GoLang / Python focused on observability, monitoring, and cluster orchestration.
 - Worked as Senior SRE on LinkedIn's Hadoop team, owned their $75 million+ GPU cluster for offline Machine Learning. Wrote APIs and tooling for managing GPU hardware, HDFS group management, K8s plugins for GPU and a neat Azure-to-on-prem Kerberos connector.
 - Worked as an intern on LinkedIn's Hadoop team, managing HDFS groups.
 - Undergraduate Assistant at Iowa State University's Programming Langauge group under Wei Le.
