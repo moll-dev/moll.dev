@@ -5,12 +5,14 @@ tags: []
 draft: false
 ---
 
-## [Presentation Slides](https://cdn.moll.dev/static/slides/Magic%20Values%20✨.pdf)
 
-## [Jupyter Notebook](https://nbviewer.org/gist/moll-dev/0cb0432ef08ae52c37de5720d6f4f142)
+- [Presentation Slides](https://cdn.moll.dev/static/slides/Magic%20Values%20✨.pdf)
 
-### Thanks for coming to my talk!
+- [Jupyter Notebook](https://nbviewer.org/gist/moll-dev/0cb0432ef08ae52c37de5720d6f4f142)
 
+- [The Unreasonable Effectiveness of Multiple Dispatch](https://www.youtube.com/watch?v=kc9HwsxE1OY)
+
+# Thanks for coming to my talk!
 - Follow me on [LinkedIn](https://www.linkedin.com/in/thomasmoll/)
 - Follow me on [BlueSky](https://bsky.app/profile/moll.dev)
 
