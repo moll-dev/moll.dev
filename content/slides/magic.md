@@ -8,7 +8,7 @@ draft: false
 
 - [Presentation Slides](https://cdn.moll.dev/static/slides/Magic%20Values%20✨.pdf)
 
-- [Jupyter Notebook](https://nbviewer.org/gist/moll-dev/0cb0432ef08ae52c37de5720d6f4f142)
+- [Jupyter Notebook](https://nbviewer.org/gist/moll-dev/0cb0432ef08ae52c37de5720d6f4f142?flush_cache=true)
 
 - [The Unreasonable Effectiveness of Multiple Dispatch](https://www.youtube.com/watch?v=kc9HwsxE1OY)
 
