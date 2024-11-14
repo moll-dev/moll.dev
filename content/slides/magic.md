@@ -5,6 +5,8 @@ tags: []
 draft: false
 ---
 
+## At Home Recording
+{{< youtube IbfYbJYqfQc >}}
 
 ## [Presentation Slides](https://cdn.moll.dev/static/slides/magic-values-v2.pdf)
 
