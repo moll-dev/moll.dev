@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1",
+    "https://w3id.org/security/suites/secp256k1-2019/v1"
+  ],
+  "id": "did:web:moll.dev",
+  "alsoKnownAs": [
+    "at://tom.moll.dev"
+  ],
+  "verificationMethod": [
+    {
+      "id": "did:web:moll.dev#atproto",
+      "type": "Multikey",
+      "controller": "did:web:moll.dev",
+      "publicKeyMultibase": "zDnaeZxJKMhWbN2urxZ2sXZGKHuBQZXv4UzeTGs1TvJeFgMmk"
+    }
+  ],
+  "service": [
+    {
+      "id": "#atproto_pds",
+      "type": "AtprotoPersonalDataServer",
+      "serviceEndpoint": "https://pds.moll.blue"
+    }
+  ]
+}
