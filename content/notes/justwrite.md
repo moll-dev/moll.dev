@@ -1,8 +1,10 @@
 ---
 title: "Just Write"
-date: 202-05-17
+date: 2025-05-17
 draft: false
 ---
+
+EDIT: In the interest of transparency, I did have to edit this post. I originally mistyped "2025-05-17" as "202-05-17" in the post metadata which broke the timestamp, mea culpa.
 
 Just write, that's the thesis. I'm writing this in the github web IDE because I can't be bothered to reclone my blog repo. 
 I'm probably not going to edit this or even spell check it, but it really doesn't matter. You're smart and you'll know what I mean
